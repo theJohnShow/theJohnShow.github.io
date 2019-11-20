@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+   <channel>
+      <title>The John Show</title>
+      <link>https://theJohnShow.github.io</link>
+      <description>The John Show is an exciting podcast featuring eccentric host John Richards. The John Show occurs most weekday evenings and often features interviews with a variety of interesting people.</description>
+      <itunes:author>John Richards</itunes:author>
+      <language>en-us</language>
+      <itunes:image href="https://theJohnShow.github.io/logo.png"/>
+      <image>
+         <url>https://theJohnShow.github.io/logo.png</url>
+         <title>The John Show logo</title>
+         <link>https://theJohnShow.github.io</link>
+      </image>
+      <itunes:category text="Sports &amp; Recreation" />
+      <itunes:owner>
+         <itunes:email>theRealJohnShow@gmail.com</itunes:email>
+         <itunes:name>John Richards</itunes:name>
+      </itunes:owner>
+      <itunes:explicit>false</itunes:explicit>
+      <copyright>Copyright 2019 The John Show</copyright>
+      <lastBuildDate>Tue, 19 Nov 2019 22:53:20 EDT</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+   </channel>
+</rss>
