@@ -10,6 +10,7 @@ function cleanup() {
 }
 
 function netError () {
+  console.log(Date.now() - startLoad);
   document.getElementById("jsfill").innerHTML = '<div class="description">Error loading recent episodes.  Please try again soon, and if this error persists, let us know.</div>';
   if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
     document.getElementById("load").style.display = "none";
@@ -43,7 +44,7 @@ function parseXML (xmlRequest, castName) {
   if (typeof castList === "undefined") {
     netError()
   } else {
-	  var castList = xmlRequest.responseXML.getElementsByTagName("item");
+    var castList = xmlRequest.responseXML.getElementsByTagName("item");
     if (typeof castList[0].children === "object") {
       for (var i = 0; i < castList.length; i++) {
         var currentAttribs = castList[i].children;
