@@ -3,7 +3,7 @@
    <channel>
       <title>The John Show</title>
       <link>https://theJohnShow.github.io</link>
-      <description>The John Show is an exciting podcast featuring eccentric host John. The John Show occurs most weekday evenings and often features interviews with a variety of interesting people.</description>
+      <description>The John Show is an exciting podcast featuring eccentric host "John".  New episodes are releasesd at 8pm every Saturday and feature interviews with a variety of interesting people.</description>
       <itunes:author>John</itunes:author>
       <language>en-us</language>
       <itunes:image href="https://theJohnShow.github.io/logo.png"/>
@@ -12,14 +12,64 @@
          <title>The John Show logo</title>
          <link>https://theJohnShow.github.io</link>
       </image>
-      <itunes:category text="Sports &amp; Recreation" />
+      <itunes:category text="Comedy">
+         <itunes:category text="Comedy Interviews" />
+      </itunes:category>
+      <itunes:category text="Society &amp; Culture">
+         <itunes:category text="Personal Journals" />
+      </itunes:category>
       <itunes:owner>
          <itunes:email>theRealJohnShow@gmail.com</itunes:email>
          <itunes:name>John</itunes:name>
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
-      <copyright>Copyright 2019 The John Show</copyright>
+      <copyright>Copyright 2019-2020 The John Show</copyright>
       <lastBuildDate>Tue, 19 Nov 2019 22:53:20 EDT</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <item>
+         <title>Interview with Kaden</title>
+         <itunes:title>Interview with Kaden</itunes:title>
+         <description></description>
+         <itunes:summary></itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JS001.mp3"
+            length=""
+            type="audio/mpeg"
+         />
+         <pubDate>Fri, 22 Nov 2019 20:00:00 EST</pubDate>
+         <itunes:duration></itunes:duration>
+         <guid isPermaLink="false">JS-01-001</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Interview with Micah</title>
+         <itunes:title>Interview with Micah</itunes:title>
+         <description></description>
+         <itunes:summary></itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JS002.mp3"
+            length=""
+            type="audio/mpeg"
+         />
+         <pubDate>Thu, 28 Nov 2019 20:00:00 EST</pubDate>
+         <itunes:duration></itunes:duration>
+         <guid isPermaLink="false">JS-01-002</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>The John Show Christmas Special</title>
+         <itunes:title>The John Show Christmas Special</itunes:title>
+         <description></description>
+         <itunes:summary></itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JSChristmas2019.mp3"
+            length=""
+            type="audio/mpeg"
+         />
+         <pubDate>Wed, 25 Dec 2019 10:00:00 EST</pubDate>
+         <itunes:duration></itunes:duration>
+         <guid isPermaLink="false">JS-SP-Christmas2019</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
    </channel>
 </rss>
