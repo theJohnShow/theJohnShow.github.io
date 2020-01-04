@@ -10,9 +10,8 @@ function cleanup() {
 }
 
 function netError () {
-  console.log(Date.now() - startLoad);
   document.getElementById("jsfill").innerHTML = '<div class="description">Error loading recent episodes.  Please try again soon, and if this error persists, let us know.</div>';
-  if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
+  if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight or Date.now() - startLoad < 150) {
     document.getElementById("load").style.display = "none";
   } else {
     document.getElementById("load").className = "loaded";
@@ -30,8 +29,7 @@ function formHTML() {
     newHTML += currentIterHTML;
   }
   document.getElementById("jsfill").innerHTML = newHTML;
-  console.log(Date.now() - startLoad);
-  if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
+  if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight or Date.now() - startLoad < 150) {
     document.getElementById("load").style.display = "none";
   } else {
     document.getElementById("load").className = "loaded";
