@@ -39,10 +39,10 @@ function formHTML() {
 }
 
 function parseXML (xmlRequest, castName) {
+  var castList = xmlRequest.responseXML.getElementsByTagName("item");
   if (typeof castList === "undefined") {
     netError()
   } else {
-    var castList = xmlRequest.responseXML.getElementsByTagName("item");
     if (typeof castList[0].children === "object") {
       for (var i = 0; i < castList.length; i++) {
         var currentAttribs = castList[i].children;
@@ -81,6 +81,8 @@ function parseXML (xmlRequest, castName) {
 }
 
 var xmlRequest = new XMLHttpRequest();
-xmlRequest.addEventListener("load", function() {parseXML(xmlRequest, "the John Show")});
 xmlRequest.open("GET", "https://theJohnShow.github.io/rss/theJohnShow.xml");
+xmlRequest.timeout = 4000;
+xmlRequest.onload = function() {parseXML(xmlRequest, "the John Show")};
+xmlRequest.ontimeout = function() {netError()};
 xmlRequest.send();
