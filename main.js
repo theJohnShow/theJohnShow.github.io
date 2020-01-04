@@ -29,6 +29,7 @@ function formHTML() {
     newHTML += currentIterHTML;
   }
   document.getElementById("jsfill").innerHTML = newHTML;
+  console.log(Date.now() - startLoad);
   if (document.getElementById("load").getBoundingClientRect().top > document.documentElement.clientHeight) {
     document.getElementById("load").style.display = "none";
   } else {
