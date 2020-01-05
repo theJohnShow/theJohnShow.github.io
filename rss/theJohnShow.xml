@@ -24,7 +24,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019-2020 The John Show</copyright>
-      <lastBuildDate>Tue, 19 Nov 2019 22:53:20 EDT</lastBuildDate>
+      <lastBuildDate>Sat, 04 Jan 2020 20:00:00 EST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Interview with Kaden</title>
@@ -33,7 +33,7 @@
          <itunes:summary></itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JS001.mp3"
-            length=""
+            length="14662772"
             type="audio/mpeg"
          />
          <pubDate>Fri, 22 Nov 2019 20:00:00 EST</pubDate>
@@ -48,7 +48,7 @@
          <itunes:summary></itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JS002.mp3"
-            length=""
+            length="15684264"
             type="audio/mpeg"
          />
          <pubDate>Thu, 28 Nov 2019 20:00:00 EST</pubDate>
@@ -63,12 +63,27 @@
          <itunes:summary></itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JSChristmas2019.mp3"
-            length=""
+            length="1094145"
             type="audio/mpeg"
          />
          <pubDate>Wed, 25 Dec 2019 10:00:00 EST</pubDate>
          <itunes:duration></itunes:duration>
          <guid isPermaLink="false">JS-SP-Christmas2019</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Interview with Tianna</title>
+         <itunes:title>Interview with Tianna</itunes:title>
+         <description></description>
+         <itunes:summary></itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JS003.mp3"
+            length="9817371"
+            type="audio/mpeg"
+         />
+         <pubDate>Sat, 04 Jan 2020 20:00:00 EST</pubDate>
+         <itunes:duration></itunes:duration>
+         <guid isPermaLink="false">JS-01-003</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
