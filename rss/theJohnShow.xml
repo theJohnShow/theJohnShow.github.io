@@ -29,8 +29,8 @@
       <item>
          <title>Interview with Kaden</title>
          <itunes:title>Interview with Kaden</itunes:title>
-         <description></description>
-         <itunes:summary></itunes:summary>
+         <description>John interviews Kaden</description>
+         <itunes:summary>John interviews Kaden</itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JS001.mp3"
             length="14662772"
@@ -44,8 +44,8 @@
       <item>
          <title>Interview with Micah</title>
          <itunes:title>Interview with Micah</itunes:title>
-         <description></description>
-         <itunes:summary></itunes:summary>
+         <description>John interviews Micah</description>
+         <itunes:summary>John interview Micah</itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JS002.mp3"
             length="15684264"
@@ -59,8 +59,8 @@
       <item>
          <title>The John Show Christmas Special</title>
          <itunes:title>The John Show Christmas Special</itunes:title>
-         <description></description>
-         <itunes:summary></itunes:summary>
+         <description>The John Show presents a Christmas special! Best viewed in video on our website or YouTube.</description>
+         <itunes:summary>The John Show presents a Christmas special! Best viewed in video on our website or YouTube.</itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JSChristmas2019.mp3"
             length="1094145"
@@ -74,8 +74,8 @@
       <item>
          <title>Interview with Tianna</title>
          <itunes:title>Interview with Tianna</itunes:title>
-         <description></description>
-         <itunes:summary></itunes:summary>
+         <description>John interviews Tianna</description>
+         <itunes:summary>John interviews Tianna</itunes:summary>
          <enclosure
             url="https://theJohnShow.github.io/theJohnShow/JS003.mp3"
             length="9817371"
