@@ -6,10 +6,10 @@
       <description>The John Show is an exciting podcast featuring eccentric host "John".  New episodes are releasesd at 8pm every Saturday and feature interviews with a variety of interesting people.</description>
       <itunes:author>John</itunes:author>
       <language>en-us</language>
-      <itunes:image href="https://theJohnShow.github.io/logo.png"/>
+      <itunes:image href="https://theJohnShow.github.io/newlogosquare.png"/>
       <image>
-         <url>https://theJohnShow.github.io/logo.png</url>
-         <title>The John Show logo</title>
+         <url>https://theJohnShow.github.io/newlogosquare.png</url>
+         <title>The John Show Logo</title>
          <link>https://theJohnShow.github.io</link>
       </image>
       <itunes:category text="Comedy">
@@ -24,7 +24,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019-2020 The John Show</copyright>
-      <lastBuildDate>Sat, 04 Jan 2020 20:00:00 EST</lastBuildDate>
+      <lastBuildDate>Sat, 04 Jan 2020 22:00:00 EST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Interview with Kaden</title>
