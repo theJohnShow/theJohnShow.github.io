@@ -90,14 +90,14 @@ html {
 
 @media (orientation: landscape) {
   #heading {
-    height: 37.5vw;
+    height: 36vw;
   }
   #headimg {
-    width: 75%;
+    width: 72%;
   }
   #navigation-bar {
     display: inline-block;
-    width: 24%;
+    width: 27%;
     padding-right: 2vw;
     vertical-align: top;
   }
@@ -106,7 +106,7 @@ html {
   }
   .navigation-item {
     text-align: right;
-    padding: 3vw 0 5vw 0;
+    padding: 1vw 0 5vw 0;
     width: 100%;
   }
   .section-header {
