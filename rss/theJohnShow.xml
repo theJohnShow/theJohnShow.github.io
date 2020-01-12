@@ -24,7 +24,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019-2020 The John Show</copyright>
-      <lastBuildDate>Sat, 04 Jan 2020 22:00:00 EST</lastBuildDate>
+      <lastBuildDate>Sun, 12 Jan 2020 00:26:00 EST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Interview with Kaden</title>
@@ -84,6 +84,21 @@
          <pubDate>Sat, 04 Jan 2020 20:00:00 EST</pubDate>
          <itunes:duration>613</itunes:duration>
          <guid isPermaLink="false">JS-01-003</guid>
+         <itunes:explicit>false</itunes:explicit>
+      </item>
+      <item>
+         <title>Interview with Nick</title>
+         <itunes:title>Interview with Nick</itunes:title>
+         <description>John interviews Nick</description>
+         <itunes:summary>John interviews Nick</itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JS004.mp3"
+            length="10457266"
+            type="audio/mpeg"
+         />
+         <pubDate>Sat, 11 Jan 2020 20:00:00 EST</pubDate>
+         <itunes:duration>653</itunes:duration>
+         <guid isPermaLink="false">JS-01-004</guid>
          <itunes:explicit>false</itunes:explicit>
       </item>
    </channel>
