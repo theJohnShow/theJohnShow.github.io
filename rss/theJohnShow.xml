@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:jsxml="https://theJohnShow.github.io/rss/xmlns">
    <channel>
       <title>The John Show</title>
       <link>https://theJohnShow.github.io</link>
@@ -40,6 +40,7 @@
          <itunes:duration>916</itunes:duration>
          <guid isPermaLink="false">JS-01-001</guid>
          <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>L6hZbX_2Wls</jsxml:ytid>
       </item>
       <item>
          <title>Interview with Micah</title>
@@ -55,6 +56,7 @@
          <itunes:duration>980</itunes:duration>
          <guid isPermaLink="false">JS-01-002</guid>
          <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>4wpH7PR9Gaw</jsxml:ytid>
       </item>
       <item>
          <title>The John Show Christmas Special</title>
@@ -70,6 +72,7 @@
          <itunes:duration>68</itunes:duration>
          <guid isPermaLink="false">JS-SP-Christmas2019</guid>
          <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>i1mkGNYg39c</jsxml:ytid>
       </item>
       <item>
          <title>Interview with Tianna</title>
@@ -85,6 +88,7 @@
          <itunes:duration>613</itunes:duration>
          <guid isPermaLink="false">JS-01-003</guid>
          <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>RXjNMKkD-c0</jsxml:ytid>
       </item>
       <item>
          <title>Interview with Nick</title>
@@ -100,6 +104,7 @@
          <itunes:duration>653</itunes:duration>
          <guid isPermaLink="false">JS-01-004</guid>
          <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>B8Ky8sAdrTA</jsxml:ytid>
       </item>
    </channel>
 </rss>
