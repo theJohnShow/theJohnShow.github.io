@@ -54,7 +54,7 @@ function parseXML (xmlRequest, castName) {
         }
         var currentDate = currentAttribs[5].innerHTML;
         var currentYTID = currentAttribs[9].innerHTML;
-        allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate, currentYTID]);
+        allCasts.push([currentTitle, currentDescription, currentURL.slice(0, -4), castName, currentDate, currentYTID]);
       }
     } else {
       for (var i = 0; i < castList.length; i++) {
@@ -67,7 +67,7 @@ function parseXML (xmlRequest, castName) {
         }
         var currentDate = currentAttribs[11].textContent;
         var currentYTID = currentAttribs[19].textContent;
-        allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate, currentYTID]);
+        allCasts.push([currentTitle, currentDescription, currentURL.slice(0, -4), castName, currentDate, currentYTID]);
       }
     }
     allCasts.sort(function(a, b) {
