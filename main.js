@@ -23,8 +23,8 @@ function netError () {
 function formHTML() {
   var newHTML = "";
   var castNumber = allCasts.length;
-  for (var i = 0; i < 5 && i < castNumber; i++) {
-    var currentIterHTML = '\n        <div class="episode">\n          <div class="epTitle">'+allCasts[0][0]+'</div>\n          <div class="epDescription">\n            '+allCasts[0][1]+'\n          </div>\n          <audio controls preload="metadata" src="'+allCasts[0][2]+'"></audio>\n          <div class="epCast">'+allCasts[0][3]+'</div><div class="epDate">'+allCasts[0][4]+'</div>\n        </div>\n';
+  for (var i = 0; i < episodesToLoad && i < castNumber; i++) {
+    var currentIterHTML = iterateHTML(allCasts[0]);
     allCasts.shift();
     newHTML += currentIterHTML;
   }
@@ -53,7 +53,8 @@ function parseXML (xmlRequest, castName) {
           currentURL = currentAttribs[4].attributes[2].nodeValue;
         }
         var currentDate = currentAttribs[5].innerHTML;
-        allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate]);
+        var currentYTID = currentAttribs[9].innerHTML;
+        allCasts.push([currentTitle, currentDescription, currentURL.slice(0, -4), castName, currentDate, currentYTID]);
       }
     } else {
       for (var i = 0; i < castList.length; i++) {
@@ -65,7 +66,8 @@ function parseXML (xmlRequest, castName) {
           currentURL = currentAttribs[9].attributes[2].nodeValue;
         }
         var currentDate = currentAttribs[11].textContent;
-        allCasts.push([currentTitle, currentDescription, currentURL, castName, currentDate]);
+        var currentYTID = currentAttribs[19].textContent;
+        allCasts.push([currentTitle, currentDescription, currentURL.slice(0, -4), castName, currentDate, currentYTID]);
       }
     }
     allCasts.sort(function(a, b) {
@@ -79,10 +81,3 @@ function parseXML (xmlRequest, castName) {
     }
   }
 }
-
-var xmlRequest = new XMLHttpRequest();
-xmlRequest.open("GET", "https://theJohnShow.github.io/rss/theJohnShow.xml");
-xmlRequest.timeout = 4000;
-xmlRequest.onload = function() {parseXML(xmlRequest, "the John Show")};
-xmlRequest.ontimeout = function() {netError()};
-xmlRequest.send();
