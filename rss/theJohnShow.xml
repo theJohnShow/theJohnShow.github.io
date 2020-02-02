@@ -24,7 +24,7 @@
       </itunes:owner>
       <itunes:explicit>false</itunes:explicit>
       <copyright>Copyright 2019-2020 The John Show</copyright>
-      <lastBuildDate>Sun, 12 Jan 2020 00:26:00 EST</lastBuildDate>
+      <lastBuildDate>Sun, 02 Feb 2020 17:18:00 EST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <item>
          <title>Interview with Kaden</title>
@@ -105,6 +105,22 @@
          <guid isPermaLink="false">JS-01-004</guid>
          <itunes:explicit>false</itunes:explicit>
          <jsxml:ytid>B8Ky8sAdrTA</jsxml:ytid>
+      </item>
+      <item>
+         <title>Tech Update 1: Where to watch The John Show</title>
+         <itunes:title>Tech Update 1: Where to watch The John Show</itunes:title>
+         <description>Learn about all of the platforms you can watch and listen to The John Show on with our producer, Ben.</description>
+         <itunes:summary>Learn about all of the platforms you can watch and listen to The John Show on with our producer, Ben.</itunes:summary>
+         <enclosure
+            url="https://theJohnShow.github.io/theJohnShow/JSTechUpdate01.mp3"
+            length="1644179"
+            type="audio/mpeg"
+         />
+         <pubDate>Sat, 01 Feb 2020 20:00:00 EST</pubDate>
+         <itunes:duration>102</itunes:duration>
+         <guid isPermaLink="false">JS-TU-TechUpdate01</guid>
+         <itunes:explicit>false</itunes:explicit>
+         <jsxml:ytid>MGrrmI_TyUU</jsxml:ytid>
       </item>
    </channel>
 </rss>
